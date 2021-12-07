@@ -8,9 +8,9 @@ class HCFFinder {
 //        this.b = b;
 //    }
 
-    public void setAB(int a,int b){ this.a = a; this.b = b; }
+    protected void setAB(int a,int b){ this.a = a; this.b = b; }
 
-    public void HCFFinding() {
+    protected void HCFFinding() {
 
 
         int i,j=1,c;
